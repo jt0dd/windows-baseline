@@ -1,0 +1,11 @@
+copy "C:\Windows\System32\WDI\LogFiles\BootPerfDiagLogger.etl" "C:\Users\jonat\Documents\GitHub\tracer\data\etl\boot.etl"
+tracerpt ./etl/boot.etl -lr -rl 5 -of XML -o ./xml/boot.xml
+
+copy "C:\Windows\System32\WDI\LogFiles\ShutdownPerfDiagLogger.etl" "C:\Users\jonat\Documents\GitHub\tracer\data\etl\shutdown.etl"
+tracerpt ./etl/shutdown.etl -lr -rl 5 -of XML -o ./xml/shutdown.xml
+
+copy "C:\Windows\System32\WDI\<id>\<id>.etl" "C:\Users\jonat\Documents\GitHub\tracer\data\etl\<id>-<id>.etl"
+tracerpt ./etl/<id>-<id>.etl -lr -rl 5 -of XML -o ./xml/<id>-<id>.xml
+
+copy "RemoteDesktopServices-RemoteFX-SessionLicensing-Debug.etl" "C:\Users\jonat\Documents\GitHub\tracer\data\etl\remote_sessions.etl"
+tracerpt ./etl/remote_sessions.etl -lr -rl 5 -of XML -o ./xml/remote_sessions.xml

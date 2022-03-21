@@ -1,0 +1,52 @@
+Files Processed:
+	./etl/boot.etl
+Total Buffers Processed 148
+Total Events  Processed 910053
+Total Events  Lost      0
+Start Time              Tuesday, March 15, 2022
+End Time                Tuesday, March 15, 2022
+Elapsed Time            145 sec
++-------------------------------------------------------------------------------------------------------------------------+
+|Event Count   Event Name           Task            Opcode          Version         Guid                                  |
++-------------------------------------------------------------------------------------------------------------------------+
+|          4   EventTrace           0               RDComplete      2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          4   EventTrace           0               EndExtension    2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          1   EventTrace           0               PartitionInfoExtensionV2 2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          5   EventTrace           0               Extension       2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          1   EventTrace           0               Header          2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          9   Process              0               Defunct         5               {3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}|
+|        465   Process              0               DCEnd           4               {3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}|
+|        476   Process              0               End             4               {3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}|
+|        476   Process              0               Terminate       2               {3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}|
+|        793   Process              0               Start           4               {3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}|
+|        147   Process              0               DCStart         4               {3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}|
+|       8741   Thread               0               DCEnd           3               {3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}|
+|       3486   Thread               0               SetName         2               {3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}|
+|     113763   Thread               0               CompCS          2               {3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}|
+|       9649   Thread               0               End             3               {3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}|
+|      16057   Thread               0               Start           3               {3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}|
+|       2299   Thread               0               DCStart         3               {3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}|
+|      24055   Image                0               DCEnd           3               {2cb15d1d-5fc1-11d2-abe1-00a0c911f518}|
+|          2   Image                0               HypercallPage   2               {2cb15d1d-5fc1-11d2-abe1-00a0c911f518}|
+|          2   Image                0               KernelBase      2               {2cb15d1d-5fc1-11d2-abe1-00a0c911f518}|
+|      41366   Image                0               Load            3               {2cb15d1d-5fc1-11d2-abe1-00a0c911f518}|
+|      23412   Image                0               UnLoad          3               {2cb15d1d-5fc1-11d2-abe1-00a0c911f518}|
+|       6069   Image                0               DCStart         3               {2cb15d1d-5fc1-11d2-abe1-00a0c911f518}|
+|      52142   DiskIo               0               Write           3               {3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c}|
+|       1914   DiskIo               0               FlushBuffers    3               {3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c}|
+|     213626   DiskIo               0               Read            3               {3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c}|
+|         48                        0               14              2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|         46                        0               13              2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|        103                        0               5               2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|       6005                        0               11              2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|       6005                        0               3               2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|      42859                        0               10              2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|      18883                        0               2               2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|      18883                        0               1               2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|      25553                        0               0               2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|      70815                        0               12              2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|      52799                        0               9               2               {7687a439-f752-45b8-b741-321aec0f8df9}|
+|      43044   FileIo               0               FileRundown     2               {90cbdc39-4a3e-11d1-84f4-0000f80464e3}|
+|      36782   FileIo               0               FileDelete      2               {90cbdc39-4a3e-11d1-84f4-0000f80464e3}|
+|      69264   FileIo               0               FileCreate      2               {90cbdc39-4a3e-11d1-84f4-0000f80464e3}|
++-------------------------------------------------------------------------------------------------------------------------+
