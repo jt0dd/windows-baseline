@@ -1,5 +1,4 @@
 python3 -m pip install jupyterlab
-python3 -m pip install ipympl
 
 copy "C:\Windows\System32\WDI\LogFiles\BootPerfDiagLogger.etl" ".\data\etl\boot.etl"
 tracerpt ./data/etl/boot.etl -lr -rl 5 -of XML -o ./data/xml/boot.xml

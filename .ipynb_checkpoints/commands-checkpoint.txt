@@ -1,11 +1,13 @@
-copy "C:\Windows\System32\WDI\LogFiles\BootPerfDiagLogger.etl" "C:\Users\Jonathan\Documents\GitHub\tracer\data\etl\boot.etl"
+python3 -m pip install jupyterlab
+
+copy "C:\Windows\System32\WDI\LogFiles\BootPerfDiagLogger.etl" ".\data\etl\boot.etl"
 tracerpt ./data/etl/boot.etl -lr -rl 5 -of XML -o ./data/xml/boot.xml
 
-copy "C:\Windows\System32\WDI\LogFiles\ShutdownPerfDiagLogger.etl" "C:\Users\Jonathan\Documents\GitHub\tracer\data\etl\shutdown.etl"
+copy "C:\Windows\System32\WDI\LogFiles\ShutdownPerfDiagLogger.etl" ".\data\etl\shutdown.etl"
 tracerpt ./data/etl/shutdown.etl -lr -rl 5 -of XML -o ./data/xml/shutdown.xml
 
-copy "C:\Windows\System32\WDI\<id>\<id>.etl" "C:\Users\Jonathan\Documents\GitHub\tracer\data\etl\<id>-<id>.etl"
+copy "C:\Windows\System32\WDI\<id>\<id>.etl" ".\data\etl\<id>-<id>.etl"
 tracerpt ./data/etl/<id>-<id>.etl -lr -rl 5 -of XML -o ./data/xml/<id>-<id>.xml
 
-copy "RemoteDesktopServices-RemoteFX-SessionLicensing-Debug.etl" "C:\Users\Jonathan\Documents\GitHub\tracer\data\etl\remote_sessions.etl"
+copy "RemoteDesktopServices-RemoteFX-SessionLicensing-Debug.etl" ".\data\etl\remote_sessions.etl"
 tracerpt ./data/etl/remote_sessions.etl -lr -rl 5 -of XML -o ./data/xml/remote_sessions.xml
