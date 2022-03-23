@@ -11,3 +11,6 @@ tracerpt ./data/etl/<id>-<id>.etl -lr -rl 5 -of XML -o ./data/xml/<id>-<id>.xml
 
 copy "RemoteDesktopServices-RemoteFX-SessionLicensing-Debug.etl" ".\data\etl\remote_sessions.etl"
 tracerpt ./data/etl/remote_sessions.etl -lr -rl 5 -of XML -o ./data/xml/remote_sessions.xml
+
+
+https://www.anychart.com/blog/2021/06/17/timeline-chart-javascript/
